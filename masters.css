@@ -1,0 +1,40 @@
+
+    :root{--deep:#003f63;--blue:#087ca7;--water:#21c9df;--coral:#ef3340;--orange:#ff7a1a;--gold:#ffc928;--cream:#fff8e7;--ink:#123849}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:18px/1.55 Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream)}img{max-width:100%;display:block}a{color:inherit}.wrap{width:min(1100px,calc(100% - 36px));margin:auto}
+    header{background:linear-gradient(90deg,var(--deep),var(--blue) 55%,#941547);border-bottom:5px solid var(--gold);color:white}.nav{min-height:78px;display:flex;align-items:center;gap:28px}.usms{width:150px;flex:none}.nav nav{display:flex;flex-wrap:wrap;gap:20px;margin-left:auto}.nav a{text-decoration:none;font-size:.91rem;font-weight:800}.nav a:hover{text-decoration:underline}
+    .hero{background:linear-gradient(90deg,#003f63e9,#087ca78a),url('images/clouds-rest-mountain.jpg') center/cover;min-height:530px;color:white;display:flex;align-items:center;border-bottom:12px solid var(--water)}.hero .wrap{padding:60px 0}.hero-logo{width:min(410px,90vw);background:white;border-radius:12px;padding:8px;box-shadow:0 12px 35px #001c2c77}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-weight:900;color:var(--gold);font-size:.82rem;margin:25px 0 8px}h1{font-size:clamp(2.8rem,6vw,5.4rem);line-height:1;margin:0 0 16px;max-width:850px}h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.08;margin:0 0 20px;color:var(--deep)}h3{margin:0 0 8px;font-size:1.2rem;color:var(--deep)}.lead{font-size:1.2rem;max-width:760px}.btn{display:inline-block;margin:10px 12px 0 0;padding:13px 20px;border-radius:999px;background:linear-gradient(90deg,var(--coral),var(--orange));color:white;text-decoration:none;font-weight:900}.btn.alt{background:var(--gold);color:var(--deep)}section.content{padding:70px 0}.intro{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}.intro img{width:100%;height:360px;object-fit:cover;border:7px solid var(--water);border-radius:22px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.card{background:white;border-radius:18px;padding:25px;border-top:7px solid var(--water);box-shadow:0 12px 30px #003f6316}.card:nth-child(2){border-color:var(--coral)}.card:nth-child(3){border-color:var(--gold)}
+    .schedule{background:linear-gradient(130deg,var(--deep),var(--blue));color:white}.schedule h2{color:white}.schedule p{max-width:750px}.times{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 36px;margin:25px 0}.time{border-bottom:1px solid #ffffff65;padding:12px 0;display:flex;justify-content:space-between;gap:20px}.time strong{color:#fff0ae}.join{background:linear-gradient(120deg,#fff4bf,white,#d9f9ff)}.join-grid{display:grid;grid-template-columns:1fr .75fr;gap:45px;align-items:start}.step{display:flex;gap:15px;margin:20px 0}.step b{display:grid;place-items:center;flex:none;background:var(--coral);color:white;border-radius:50%;width:34px;height:34px}.price{background:white;border:5px solid var(--water);box-shadow:9px 9px 0 var(--gold);border-radius:22px;padding:30px}.price strong{font-size:1.7rem;color:var(--deep)}.price p{margin:8px 0 24px}.price-list{display:flex;gap:10px;flex-wrap:wrap}.price-list span{background:#e5fbff;color:var(--deep);padding:9px 13px;border-radius:12px;font-weight:800}.where{background:#fff}.where .wrap{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.where img{width:100%;height:280px;object-fit:cover;border-radius:20px}.where a{color:var(--blue);font-weight:800}footer{background:var(--deep);color:white;text-align:center;padding:32px 18px;border-top:8px solid var(--coral)}
+    @media(max-width:780px){.nav{padding:12px 0;flex-wrap:wrap;gap:10px}.nav nav{width:100%;margin:0;justify-content:center;gap:9px 15px}.nav a{font-size:.83rem}.intro,.join-grid,.where .wrap,.cards{grid-template-columns:1fr}.times{grid-template-columns:1fr}.time{font-size:.95rem}.intro img{height:260px}section.content{padding:52px 0}}
+
+
+.hero.short{min-height:290px}.hero.short .wrap{padding:45px 0}.hero.short h1{font-size:clamp(2.6rem,5vw,4.5rem)}
+.swim-moments{background:linear-gradient(125deg,#003f63,#087ca7);color:white}.swim-moments h2{color:white}.swim-moments p{max-width:760px}.swim-moments-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:26px}.swim-moments figure{margin:0;background:#fff;border:5px solid white;border-radius:20px;overflow:hidden}.swim-moments figure img{width:100%;height:340px;object-fit:cover}.swim-moments figcaption{padding:10px 16px;color:var(--deep);font-weight:800;font-size:1rem}@media(max-width:780px){.swim-moments-grid{grid-template-columns:1fr}.swim-moments figure img{height:290px}}
+/* Keep swimmers fully visible in the evening pair. */
+.swim-moments-grid{max-width:870px;margin-inline:auto}
+.swim-moments figure img{height:240px;object-fit:contain;background:#073b59}
+@media(max-width:780px){.swim-moments figure img{height:220px}}
+/* Let the swimming photos lead, with quiet captions and no blue letterboxing. */
+.swim-moments{background:linear-gradient(155deg,#e2f7fa,#fff0d9);color:var(--ink)}
+.swim-moments h2{color:var(--deep)}
+.swim-moments-grid{max-width:900px;gap:30px;align-items:start}
+.swim-moments figure{display:flex;flex-direction:column;align-items:center;border:0;border-radius:0;background:transparent}
+.swim-moments figure img{width:auto;max-width:100%;height:auto;max-height:270px;object-fit:contain;background:transparent;border-radius:9px;box-shadow:0 7px 20px #12384922}
+.swim-moments figcaption{padding:10px 0;color:var(--deep);text-align:center}
+.intro img{border:0;border-radius:10px;box-shadow:0 7px 20px #12384922}
+@media(max-width:780px){.swim-moments figure img{max-height:240px}}
+.swim-moments{background:linear-gradient(110deg,#003f63ec,#087ca7c9),url('images/night-swim-members.jpeg') center 28%/cover;color:#fff}
+.swim-moments h2,.swim-moments figcaption{color:#fff}
+.swim-moments-grid::before,.swim-moments-grid::after{content:"";display:block;grid-column:1/-1;border-radius:8px}
+.swim-moments-grid::before{height:76px;background:url('images/night-swim-members.jpeg') center top/cover no-repeat}
+.swim-moments-grid::after{height:54px;background:url('images/masters-swimmer.jpg') center 79%/cover no-repeat}
+@media(max-width:780px){.swim-moments-grid::before{height:60px}.swim-moments-grid::after{height:42px}}
+.swim-moments figure:first-of-type img{width:195px;height:245px;max-height:none;object-fit:cover;object-position:center top}
+@media(max-width:780px){.swim-moments figure:first-of-type img{width:180px;height:225px}}
+.swim-moments{background:linear-gradient(130deg,#024b76,#087ca7 65%,#065476)}
+.swim-moments-grid::before,.swim-moments-grid::after{border-radius:0;background-image:url('images/swim-flags-lanes.png');background-repeat:no-repeat;background-size:100% auto}
+.swim-moments-grid::before{height:105px;background-position:center top}
+.swim-moments-grid::after{height:110px;background-position:center bottom}
+@media(max-width:780px){.swim-moments-grid::before{height:65px}.swim-moments-grid::after{height:65px}}
+.swim-moments .evening-crop{width:215px;height:245px;overflow:hidden;border-radius:9px;box-shadow:0 7px 20px #12384922}
+.swim-moments .evening-crop img{display:block;width:100%;height:100%;max-height:none;object-fit:cover;object-position:62% 55%;transform:scale(1.60);transform-origin:62% 55%;border-radius:0;box-shadow:none}
+@media(max-width:780px){.swim-moments .evening-crop{width:200px;height:225px}}

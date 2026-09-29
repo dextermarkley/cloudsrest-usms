@@ -1,0 +1,3 @@
+Clouds Rest website copy
+
+Unzip the folder, then open index.html in a web browser. Keep the images folder alongside the HTML pages. Links to U.S. Masters Swimming need an internet connection.
