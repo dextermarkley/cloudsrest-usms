@@ -1,3 +1,22 @@
-Clouds Rest website copy
+Clouds Rest US Masters Swimming & Aqua Fitness website
 
-Unzip the folder, then open index.html in a web browser. Keep the images folder alongside the HTML pages. Links to U.S. Masters Swimming need an internet connection.
+This repository contains the static website for Clouds Rest US Masters Swimming & Aqua Fitness.
+
+Hosting
+- Hosted with AWS Amplify.
+- The production site is deployed from the main branch.
+
+Site structure
+- index.html — main Clouds Rest website
+- masters.html — Masters Swimming overview
+- masters-schedule.html — location and practice schedule
+- masters-join.html — membership and program information
+- gear.html — Clouds Rest gear
+- masters.css — shared styles for the Masters Swimming pages
+- images/ — site images and graphics
+
+Development
+The site is plain HTML and CSS and does not require a build step. To preview locally, open index.html in a web browser or serve the repository with any local static HTTP server.
+
+Deployment
+Changes merged into main are deployed through AWS Amplify.
